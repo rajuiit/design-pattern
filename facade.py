@@ -18,14 +18,12 @@ class SoundSystem:
     def off(self):
         print(f"Sound System is now Off")
 
-
 class Lights:
     def dim(self):
         print("Lights is now Dim")
 
     def bright(self):
         print("Lights is now bright")
-
 
 class AirConditioner:
     def on(self):
@@ -36,7 +34,6 @@ class AirConditioner:
 
     def set_temperature(self, temp):
         print(f"AirConditioner is set to temperature {temp}")
-
 
 class SmartHomeFacade:
     def __init__(self):
@@ -64,8 +61,7 @@ class SmartHomeFacade:
         self.ac.off()
         print("All devices are turned off. Goodbye!\n")
 
-
-
+# Client code
 obj = SmartHomeFacade()
 
 obj.start_movie_night()

@@ -10,6 +10,7 @@ class PaymentContext:
 class PaymentStrategy:
     def pay(self, amount):
         pass
+
 class CreditCardPayment(PaymentStrategy):
     def pay(self, amount):
         print(f"Paid {amount} using Credit Card.")
@@ -21,6 +22,7 @@ class PayPalPayment(PaymentStrategy):
 class BitcoinPayment(PaymentStrategy):
     def pay(self, amount):
         print(f"Paid {amount} using Bitcoin.")
+        
 if __name__ == "__main__":
     # Create strategies
     credit_card = CreditCardPayment()
