@@ -403,7 +403,7 @@ Legacy Security System Disarmed 2
 ---
 
 
-### **Understanding the Adapter Design Pattern (Refactor first example: adapter.py) in Your Code**
+### **Understanding the Adapter Design Pattern (Refactor the first example: adapter.py) in Your updated code: refactor_code_with_one_adapter.py**
 
 The **Adapter Pattern** is used to make incompatible interfaces work together. In this case, we have **two different legacy security systems** that have different method names, and we want them to work with a **Smart Home Controller** that expects standardized method names.
 
