@@ -27,7 +27,6 @@ class ValidationMiddleware(Middleware):
             print("Invalid request data.")
         super().process(request)
 
-
 class MiddlewareManager:
     def __init__(self):
         self.chain = None
